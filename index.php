@@ -52,11 +52,11 @@ if (! isset ( $_POST ['submit'] )) {
 	echo "                        <li>\n";
 	echo "                            <label for=\"tar\">tar</label>\n";
 	echo "                            <input type=\"checkbox\" id=\"tar\" name=\"tar\" value=\"1\" /> \n";
-    echo "                        </li>\n";
+	echo "                        </li>\n";
 	echo "                        <li>\n";
 	echo "                            <label for=\"targz\">tar.gz</label>\n";
 	echo "                            <input type=\"checkbox\" id=\"targz\" name=\"targz\" value=\"1\" /> \n";
-    echo "                        </li>\n";
+	echo "                        </li>\n";
 	echo "                        <li>\n";
 	echo "                            <label for=\"tarbz2\">tar.bz2</label>\n";
 	echo "                            <input type=\"checkbox\" id=\"tarbz2\" name=\"tarbz2\" value=\"1\" /> \n";
