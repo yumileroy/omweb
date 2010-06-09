@@ -108,13 +108,13 @@ if (isset ( $_POST ['submit'] )) //if submit has been pressed
 	}
 	if ($_POST ['tar'] == "1") {
 		$archive .= "t";
-    }
-    if ($_POST ['targz'] == "1") {
-        $archive .= "g";
-    }
-    if ($_POST ['tarbz2'] == "1") {
-        $archive .= "b";
-    }
+	}
+	if ($_POST ['targz'] == "1") {
+		$archive .= "g";
+	}
+	if ($_POST ['tarbz2'] == "1") {
+		$archive .= "b";
+	}
 
 	if (empty ( $tmanganame ) || empty ( $chapter ) || empty ( $archive )) {
 		if (empty ( $tmanganame )) {
