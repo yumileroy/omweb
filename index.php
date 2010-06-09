@@ -6,12 +6,8 @@ if (! isset ( $_POST ['submit'] )) {
 	echo "        <head> \n";
 	echo "            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" /> \n";
 	echo "            <title></title> \n";
-	echo "		<script src=\"js/scriptaculous/lib/prototype.js\" type=\"text/javascript\"></script> \n";
-	echo "		<script src=\"js/scriptaculous/src/effects.js\" type=\"text/javascript\"></script> \n";
-	echo "		<script src=\"js/fabtabulous.js\" type=\"text/javascript\"></script> \n";
-	echo "		<script src=\"js/validation.js\" type=\"text/javascript\"></script> \n";
-	echo "		<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
-	echo "		<link href=\"css/alignment.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
+	echo "		<script src=\"js/js.php\" type=\"text/javascript\"></script> \n";
+	echo "		<link href=\"css/css.php\" rel=\"stylesheet\" type=\"text/css\" /> \n";
 	echo "        </head> \n";
 	echo "        <body> \n";
 	echo "            <form action=\"{$_SERVER['php_SELF']}\" method=\"post\" id=\"formOneManga\"> \n";
@@ -82,8 +78,7 @@ if (isset ( $_POST ['submit'] )) //if submit has been pressed
 	echo "        <head> \n";
 	echo "            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" /> \n";
 	echo "            <title></title> \n";
-	echo "		<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
-	echo "		<link href=\"alignment.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
+	echo "		<link href=\"css/css.php\" rel=\"stylesheet\" type=\"text/css\" /> \n";
 	echo "        </head> \n";
 	echo "        <body> \n";
 	echo "<h1 class=\"header\">OneManga Downloader Output</h1>";
