@@ -10,10 +10,8 @@ if (! isset ( $_POST ['submit'] )) {
 	echo "		<script src=\"js/scriptaculous/src/effects.js\" type=\"text/javascript\"></script> \n";
 	echo "		<script src=\"js/fabtabulous.js\" type=\"text/javascript\"></script> \n";
 	echo "		<script src=\"js/validation.js\" type=\"text/javascript\"></script> \n";
-	echo "		<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
-	echo "		<link href=\"alignment.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
-	echo "		<script type=\"text/javascript\" src=\"keyboard.js\" charset=\"UTF-8\"></script> \n";
-	echo "        <link href=\"keyboard.css\" rel=\"stylesheet\" type=\"text/css\" />\n";
+	echo "		<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
+	echo "		<link href=\"css/alignment.css\" rel=\"stylesheet\" type=\"text/css\" /> \n";
 	echo "        </head> \n";
 	echo "        <body> \n";
 	echo "            <form action=\"{$_SERVER['php_SELF']}\" method=\"post\" id=\"formOneManga\"> \n";
