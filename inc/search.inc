@@ -25,7 +25,7 @@
 <script type="text/javascript">new Validation('formOneManga');</script>
             </form> 
             <p><br /> 
-            <a href="http://validator.w3.org/check?uri=referer"><img src="http://yuminanako.info/omweb/valid-xhtml10-blue" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a> 
+            <a href="http://validator.w3.org/check?uri=referer"><img src="images/valid-xhtml10-blue.png" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a> 
             </p> 
         </body> 
     </html> 
