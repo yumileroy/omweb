@@ -22,9 +22,7 @@ if (isset ( $_POST ['submit'] )) //if submit has been pressed
 	$errarray = array ();
 
 	if (empty ( $tmanganame )) {
-		if (empty ( $tmanganame )) {
-			array_push ( $errarray, "Manga Name" );
-		}
+		array_push ( $errarray, "Manga Name" );
 		$final_string = "'" . implode ( "' , '", $errarray ) . "'";
 		die ( print ( "Please make sure the following: " . $final_string . " is not empty." . "<br>" ) );
 	}
