@@ -9,9 +9,7 @@ header("Expires: $then");
 ob_start("ob_gzhandler");
 
 /* your js files */
-include('scriptaculous/lib/prototype.js');
-include('scriptaculous/src/effects.js');
-include('fabtabulous.js');
+include('prototype.js');
 include('validation.js');
 
 ob_end_flush();
