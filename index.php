@@ -1,6 +1,6 @@
 <?php
 if (! isset ( $_POST ['submit'] )) {
-    echo file_get_contents("html/main.html");
+    echo file_get_contents("inc/main.inc");
 }
 
 if (isset ( $_POST ['submit'] )) //if submit has been pressed
